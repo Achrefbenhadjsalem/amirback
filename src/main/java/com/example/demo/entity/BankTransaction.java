@@ -17,9 +17,9 @@ public class BankTransaction {
     private Integer idTransaction;
     private Integer Amount;
     private Date Date;
-    private Integer cin; // Nouvelle colonne CIN de type entier
-    private String name; // Nouvelle colonne Name de type chaîne de caractères
-    private String rib; // Nouvelle colonne RIB
+    private Integer cin;
+    private String name;
+    private String rib;
     @ManyToOne
     @JoinColumn(name = "bankaccount_id")
     private BankAccount bankAccount;
