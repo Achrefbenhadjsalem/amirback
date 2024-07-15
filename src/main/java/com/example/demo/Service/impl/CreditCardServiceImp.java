@@ -35,6 +35,8 @@ public class CreditCardServiceImp implements CreditCardServ {
             creditCardRequest1.setEmail(creditCardRequest.getEmail());
             creditCardRequest1.setPhoneNumber(creditCardRequest.getPhoneNumber());
             creditCardRequest1.setAnnualRevenue(creditCardRequest.getAnnualRevenue());
+            creditCardRequest1.setStatu(creditCardRequest.getStatu());
+
             return creditCardRepo.save(creditCardRequest1);
         } else {
             System.out.println("does not exist");

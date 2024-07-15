@@ -20,4 +20,7 @@ public class Credit_Card_Request {
     private String phoneNumber;
     private Integer annualRevenue;
     private String adress;
+    private String statu;
+
+
 }
